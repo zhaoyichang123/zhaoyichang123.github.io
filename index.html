@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Yichang Zhao – Academic Homepage</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
 <style>
   body {
     margin: 0;
@@ -15,14 +16,14 @@
   }
   header {
     text-align: center;
-    padding: 50px 20px 20px;
+    padding: 60px 20px 20px;
   }
   header img {
     width: 150px;
     border-radius: 8px;
   }
   header h1 {
-    margin: 20px 0 5px;
+    margin: 20px 0 10px;
     font-size: 2.4rem;
     font-weight: 700;
   }
@@ -30,123 +31,245 @@
     font-size: 1.1rem;
     opacity: 0.8;
   }
+  nav {
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  nav a {
+    margin: 0 15px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #003366;
+    font-weight: 600;
+  }
   .container {
-    max-width: 850px;
-    margin: 40px auto;
-    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 20px 40px;
   }
   h2 {
     margin-top: 40px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 700;
     border-bottom: 1px solid #ddd;
     padding-bottom: 6px;
   }
-  ul {
-    padding-left: 20px;
+  details {
+    margin-bottom: 18px;
   }
-  li { margin-bottom: 8px; }
-  a {
-    color: #003366;
-    text-decoration: none;
+  summary {
+    cursor: pointer;
+    font-size: 1.1rem;
     font-weight: 600;
+    padding: 6px 0;
   }
-  a:hover { text-decoration: underline; }
+  .pub-entry {
+    margin-bottom: 15px;
+  }
   .footer {
     text-align: center;
     padding: 40px;
     font-size: 0.9rem;
     color: #666;
   }
+  a { color: #003366; }
 </style>
 </head>
 
 <body>
 
+<nav>
+  <a href="#about">About</a>
+  <a href="#pubs">Publications</a>
+  <a href="#cv">CV</a>
+  <a href="#contact">Contact</a>
+</nav>
+
 <header>
-  <img src="photo.png" alt="Profile Photo" />
+  <img src="https://raw.githubusercontent.com/zhaoyichang123/zhaoyichang123.github.io/main/photo.png" alt="Profile Photo" />
   <h1>Yichang Zhao</h1>
-  <p>PhD Candidate · Clinical Pharmacy · The Second Xiangya Hospital, Central South University</p>
+  <p>Ph.D. Candidate · Clinical Pharmacy · The Second Xiangya Hospital of Central South University</p>
 </header>
 
 <div class="container">
 
-<h2>About</h2>
+<!-- ====================== ABOUT ========================= -->
+<h2 id="about">About</h2>
 <p>Email: <a href="mailto:zhaoyichang@csu.edu.cn">zhaoyichang@csu.edu.cn</a></p>
 <p>ORCID: <a href="https://orcid.org/0000-0002-9651-4457">0000-0002-9651-4457</a></p>
+<p>Google Scholar: <a href="https://scholar.google.com/citations?user=ZrNKcgIAAAAJ">Profile</a></p>
 
 <p>
 Research activities focus on antimicrobial pharmacology, infectious disease epidemiology,
 and clinical pharmacokinetics. Current work emphasizes optimization of antimicrobial therapy,
 characterization of PK/PD variability, and identification of clinical and environmental determinants
-of antimicrobial resistance. Quantitative methodologies—including meta-analysis, population pharmacokinetic (PopPK)
-modeling, real-world evidence analysis, and causal inference—are applied to support individualized dosing
-strategies and evidence-based antimicrobial stewardship.
+of antimicrobial resistance.
 </p>
 
 <p>
-Published research includes multiple first-author articles in internationally peer-reviewed journals
-spanning pharmacology, infectious diseases, and environmental health. Long-term objectives involve integrating
-translational pharmacology with data-driven infectious disease research to improve therapeutic decision-making
-for severe and drug-resistant infections.
+Quantitative methodologies—including meta-analysis, population pharmacokinetic (PopPK)
+modeling, real-world data analytics, and causal inference—are applied to support individualized dosing
+strategies and evidence-based antimicrobial stewardship.
 </p>
 
+<!-- ====================== EMPLOYMENT ========================= -->
 <h2>Employment</h2>
 <ul>
-  <li><strong>Second Xiangya Hospital of Central South University</strong>, Changsha, Hunan, China (2017–2019)<br>
+  <li><strong>The Second Xiangya Hospital of Central South University</strong>, Changsha, China (2017–2019)<br>
       Administrative Secretary, GCP Office & Medical Ethics Committee</li>
   <li><strong>First Affiliated Hospital of Hunan University of Medicine</strong>, Huaihua, China (2014–2015)<br>
       Clinical Pharmacist</li>
 </ul>
 
+<!-- ====================== EDUCATION ========================= -->
 <h2>Education</h2>
 <ul>
-  <li><strong>Ph.D., Clinical Pharmacy</strong> (2022–2026)<br>
-      The Second Xiangya Hospital, Central South University</li>
-  <li><strong>Master of Clinical Pharmacy</strong> (2019–2022)<br>
-      The Second Xiangya Hospital, Central South University</li>
-  <li><strong>Bachelor of Pharmacy</strong> (2010–2014)<br>
-      Xiangya School of Medicine, Central South University</li>
+  <li><strong>Ph.D. in Clinical Pharmacy</strong> (2022–2026)<br>The Second Xiangya Hospital, Central South University</li>
+  <li><strong>Master of Clinical Pharmacy</strong> (2019–2022)<br>The Second Xiangya Hospital, Central South University</li>
+  <li><strong>Bachelor of Pharmacy</strong> (2010–2014)<br>Xiangya School of Medicine, Central South University</li>
 </ul>
 
+<!-- ====================== HONORS ========================= -->
 <h2>Distinctions & Honors</h2>
 <ul>
   <li>National Doctoral Scholarship – Ministry of Education (2022, 2024, 2025)</li>
-  <li>Selected Young Scientist – 72nd Lindau Nobel Laureate Meeting (NSFC–DFG Sino-German Center)</li>
+  <li>Selected Young Scientist – 72nd Lindau Nobel Laureate Meeting</li>
   <li>Person of the Year – Central South University (2023)</li>
   <li>CSU Innovation Award · President’s Scholarship (2023)</li>
 </ul>
 
+<!-- ====================== FUNDING ========================= -->
 <h2>Funding</h2>
 <ul>
-  <li><strong>NIHAYSZX2502</strong> – IoT- and GIS-Based System for CR-GNB Infection Warning and Precision Medication<br>
-      National Health Commission of the People’s Republic of China</li>
-  <li><strong>202113012480</strong> – Voriconazole Dosing Adjustment in Hepatic Dysfunction<br>
-      Health Commission of Hunan Province</li>
+  <li><strong>NIHAYSZX2502</strong> – IoT/GIS-based CR-GNB early-warning system  
+      <br>National Health Commission of China</li>
+  <li><strong>202113012480</strong> – Voriconazole dosing in hepatic dysfunction  
+      <br>Health Commission of Hunan Province</li>
 </ul>
 
-<h2>Selected Publications</h2>
-<p>Full publication list available on <a href="https://scholar.google.com/citations?user=ZrNKcgIAAAAJ">Google Scholar</a>.</p>
+<!-- ====================== PUBLICATIONS ========================= -->
+<h2 id="pubs">Publications</h2>
 
-<ul>
-  <li>BMC Medical Education (2025) – DOI: 10.1186/s12909-025-07859-4</li>
-  <li>Cardiovascular Diabetology (2025) – DOI: 10.1186/s12933-025-02880-9</li>
-  <li>Environmental Sciences Europe (2025) – DOI: 10.1186/s12302-025-01111-y</li>
-  <li>Frontiers in Pharmacology (2025) – DOI: 10.3389/fphar.2025.1534107</li>
-  <li>Scientific Reports (2025) – DOI: 10.1038/s41598-025-91356-7</li>
-  <li>Environmental Geochemistry and Health (2024) – DOI: 10.1007/s10653-024-02264-0</li>
-  <li>Frontiers in Pharmacology (2024) – DOI: 10.3389/fphar.2024.1439232</li>
-  <li>IJAA (2024) – DOI: 10.1016/j.ijantimicag.2024.107262</li>
-  <li>Environmental Research (2024) – DOI: 10.1016/j.envres.2023.117995</li>
-  <li>Phytomedicine (2023) – DOI: 10.1016/j.phymed.2023.154883</li>
-  <li>Pharmaceutics (2022) – DOI: 10.3390/pharmaceutics14122739</li>
-  <li>Antibiotics (2022) – DOI: 10.3390/antibiotics11050670</li>
-  <li>Infectious Diseases and Therapy (2022) – DOI: 10.1007/s40121-021-00551-2</li>
-  <li>British Journal of Clinical Pharmacology (2021) – DOI: 10.1111/bcp.14578</li>
-  <li>Clinical and Translational Science (2021) – DOI: 10.1111/cts.12932</li>
-</ul>
+<h3>First-author & Co-first Author Publications</h3>
 
-<h2>Links</h2>
+<!-- 2025 -->
+<details open>
+  <summary>2025 — 6 publications</summary>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Wu S-Q., Li J-K., Sun Z-H., Zhang B-K., Fu R., Yan M.  
+  <em>Predictive value of the combined triglyceride-glucose and frailty index...</em>  
+  Cardiovascular Diabetology, 2025. DOI: 10.1186/s12933-025-02880-9</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Sun Z-H., Li J-K., Liu H-Y., Xiao M-X., Zhang B-K., Cao W., Yan M.  
+  <em>From gram-negative strains to mortality...</em>  
+  Environmental Sciences Europe, 2025. DOI: 10.1186/s12302-025-01111-y</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Li J-K., Zhang Y-K., Sun Z-H., Fu R., Zhang B-K., Yan M.  
+  <em>MRSA co-infection and mortality in sepsis...</em>  
+  Frontiers in Pharmacology, 2025. DOI: 10.3389/fphar.2025.1534107</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Zhang Y-K., Gao W., Liu H-Y., Xiao C-L., Hou J-J., Li J-K., Zhang B-K., Xiang D-X., Sandaradura I., Yan M.  
+  <em>Liver microsomes & PBPK in tacrolimus-voriconazole interactions</em>  
+  Scientific Reports, 2025. DOI: 10.1038/s41598-025-91356-7</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Xiao M-X., Sun Z-H., Li J-K., Liu H-Y., Zhang B-K., Cai H-L., Cao W., Yu F., Yan M.  
+  <em>Unmasking MRSA antibiotic resistance (nationwide study)</em>  
+  Environmental Sciences Europe, 2025. DOI: 10.1186/s12302-025-01064-2</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Sun Z-H., Li J-K., Peng F-H., Yu F., Zhang B-K., Yan M.  
+  <em>Tacrolimus–voriconazole interactions in renal transplant recipients</em>  
+  Frontiers in Pharmacology, 2025. DOI: 10.3389/fphar.2024.1502097</div>
+
+</details>
+
+
+<!-- 2024 -->
+<details>
+  <summary>2024 — 6 publications</summary>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Sun Z-H., Li J-K., Liu H-Y., Zhang B-K., Xie X-B., Fang C-H., Sandaradura I., Peng F-H., Yan M.  
+  <em>PopPK individualized tacrolimus dosing with voriconazole</em>  
+  Frontiers in Pharmacology, 2024. DOI: 10.3389/fphar.2024.1439232</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Wang C-Y., Liu J-Y., Li J-K., Liu H-Y., Sun Z-H., Zhang B-K., Yan M.  
+  <em>Effectiveness and safety of polymyxin B (96-study meta-analysis)</em>  
+  IJAA, 2024. DOI: 10.1016/j.ijantimicag.2024.107262</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Sun Z-H., Li J-K., Liu H-Y., Cai H-L., Cao W., Yu F., Zhang B-K., Yan M.  
+  <em>Vancomycin-resistant Enterococcus faecalis – nationwide determinants</em>  
+  Environmental Sciences Europe, 2024. DOI: 10.1186/s12302-024-00923-8</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Sun Z-H., Xiao M-X., Li J-K., Liu H-Y., Cai H-L., Cao W., Feng Y., Zhang B-K., Yan M.  
+  <em>Climate influence on quinolone-resistant E. coli</em>  
+  Environmental Research, 2024. DOI: 10.1016/j.envres.2023.117995</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Liu H-Y., Xiao C-L., Hou J-J., Zhang B-K., Li J-K., Zhang M., Jiang Y-F., Sandaradura I., Ding X-S., Yan M.  
+  <em>Voriconazole in liver dysfunction</em>  
+  Frontiers in Pharmacology, 2024. DOI: 10.3389/fphar.2023.1323755</div>
+
+</details>
+
+<!-- 2023 -->
+<details>
+  <summary>2023 — 3 publications</summary>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Guo L., Wang Y-K., Gong H., Zhang B-K., Yan M.  
+  <em>Glycyrrhizic acid efficacy in hepatitis B – network meta-analysis</em>  
+  Phytomedicine, 2023. DOI: 10.1016/j.phymed.2023.154883</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, …  
+  <em>PJP associated with immune checkpoint inhibitors</em>  
+  Frontiers in Pharmacology, 2023. DOI: 10.3389/fphar.2023.1129730</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Xiao C-L., Hou J-J., …  
+  <em>Clinical pharmacy undergraduate education in China</em>  
+  BMC Medical Education, 2023. DOI: 10.1186/s12909-023-04049-y</div>
+
+</details>
+
+<!-- 2022 -->
+<details>
+  <summary>2022 — 4 publications</summary>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Xiao C-L., Hou J-J., Li J-K., Zhang B-K., Xie X-B., Fang C-H., Peng F-H., Sandaradura I., Yan M.  
+  <em>Voriconazole–tacrolimus interactions in kidney transplant</em>  
+  Pharmaceutics, 2022. DOI: 10.3390/pharmaceutics14122739</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Xiao C-L., Hou J-J., Wu J-M., Xiao Y-W., Zhang B-K., Sandaradura I., Luo H., Li J-H., Yan M.  
+  <em>Meropenem C/MIC >4 predictive value</em>  
+  Antibiotics, 2022. DOI: 10.3390/antibiotics11050670</div>
+
+</details>
+
+<!-- 2021 -->
+<details>
+  <summary>2021 — 4 publications</summary>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Zou Y., Xiao Y-W., Wang F., Zhang B-K., Xiang D-X., Yu F., Luo H., Sandaradura I., Yan M.  
+  <em>Prolonged infusion meropenem efficacy</em>  
+  Infectious Diseases & Therapy, 2021.</div>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Hou J-J., Xiao Y-W., Wang F., Zhang B-K., Zhang M., Jiang Y-F., Li J-K., Gong G-Z., Xiang D-X., Yan M.  
+  <em>Voriconazole in Child–Pugh C cirrhosis</em>  
+  Antibiotics, 2021.</div>
+
+</details>
+
+<!-- 2020 -->
+<details>
+  <summary>2020 — 2 publications</summary>
+
+  <div class="pub-entry"><strong>Zhao Y-C.</strong>, Lin X-B., Zhang B-K., Xiao Y-W., Xu P., Wang F., Xiang D-X., Xie X-B., Peng F-H., Yan M.  
+  <em>Predictors of adverse events in kidney transplant voriconazole therapy</em>  
+  Clinical and Translational Science, 2020.</div>
+
+</details>
+
+
+<!-- ====================== LINKS ========================= -->
+<h2 id="contact">Links</h2>
 <ul>
   <li><a href="https://orcid.org/0000-0002-9651-4457">ORCID</a></li>
   <li><a href="https://scholar.google.com/citations?user=ZrNKcgIAAAAJ">Google Scholar</a></li>
@@ -156,7 +279,7 @@ for severe and drug-resistant infections.
 </div>
 
 <div class="footer">
-  © 2025 Yichang Zhao · Academic Homepage
+  © 2025 Yichang Zhao
 </div>
 
 </body>
